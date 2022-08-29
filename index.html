@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Views tools</title>
+  </head>
+  <body>
+    <header>
+      <form class="putUrl">
+        <label for="url">Website</label>
+        <input
+          type="text"
+          name="url"
+          id="url"
+          value="http://127.0.0.1:5500/index.html"
+          placeholder="http://127.0.0.1:5500/index.html" />
+        <input type="submit" value="Start" />
+      </form>
+      <nav class="sidebar">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="material-icons"> settings </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="material-icons"> info </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="material-icons"> visibility </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="material-icons"> view_column </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="material-icons"> vertical_split </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="material-icons"> camera_enhance</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <aside class="view_phone">
+        <iframe
+          class="viewPort_phone"
+          src="https://sadkodev.github.io/Frontend-Mentor---QR-code-component-solution/"
+          frameborder="0"
+          name="view-phone">
+        </iframe>
+        <div class="macro_phone"></div>
+      </aside>
+      <div class="show-console-data"></div>
+    </main>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
